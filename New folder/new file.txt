@@ -1,0 +1,7 @@
+dir (to see all file at path)
+cd ... (go to...)
+
+git status
+git add *
+git commit -m ""
+git push origin master
