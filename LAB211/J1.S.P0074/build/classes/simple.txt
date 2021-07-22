@@ -1,0 +1,19 @@
+Add 2 matrix :[4 | 2] + [3 | 3] null row(col) 2 matrix must be equal row and col (check by length)
+Ex : [4 | 2] + [2 | 3]
+            B = |b11 b12 b13|
+                |b21 b22 b23|
+
+A = |a11 a12|   ([a11 b11]+ [a12 b21]).....  = new matrix [4 | 3]
+    |a21 a22|
+    |a31 a32|
+    |a41 a42|
+
+Sub 2 matrix :[4 | 2] - [3 | 3] = null row(col) 2 matrix must be equal row and col (check by length)
+       other :[2 | 2] - [2 | 2]  ([a11 b11] - [a12 b21]).....  = new matrix [2 | 2]
+
+
+Multi 2 matrix : [4 | 2] - [2 | 3] = null [col] matrix 1 must be equal [row] matrix 2 (check by length)
+       other :[x | y] * [y | z] => EX : 
+                                        |a  b|     |x|    |a x + b y|
+                                        |c  d|  x  |y| =  |c x + d y|
+              
